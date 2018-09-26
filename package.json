@@ -1,0 +1,12 @@
+{
+  "name": "sitemap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "generate": "sitemap-gen input=links.txt output=sitemap.xml domain=https://pehlakadam.in"
+  },
+  "dependencies": {
+    "sitemap2": "^1.0.1"
+  }
+}
